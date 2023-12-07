@@ -1,11 +1,12 @@
 body{
+    margin:0;
     font-family:Arial,sans-serif;
-    background-color:#C5DFA0;
 }
 
 .start-block{
+    background-color:#C5DFA0;
     color:white;
-    height:50rem;
+    height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -51,4 +52,8 @@ body{
         height:250px;
         cursor:auto;
     }
+}
+
+.main-page{
+    margin-top:10rem;
 }
