@@ -12,25 +12,43 @@
         <a href="#main-page">V</a>
     </header>
     <main id="main-page">
-        <h2>Notre objectif à la nuit de l'info ?</h2>
-        <h1>Déceler le vrai du faux</h1>
-        <h2>Dans notre combat contre le changement climatique.</h2>
-        <a href="#">Commencer</a>
+        <section>
+            <h2>Notre objectif à la nuit de l'info ?</h2>
+            <h1>Déceler le vrai du faux</h1>
+            <h2>Dans notre combat contre le changement climatique.</h2>
+            <a href="#">Commencer</a>
+        </section>
+        <section>
+            <h2>Question:</h2>
+            <h1>Vrai ou Faux ?</h1>
+            <h2>"Ce n'est pas a nous d'agir."</h2>
+            <button onclick="vrai(1)" class="vrai">Vrai</button>
+            <button onclick="faux(1)" class="faux">Faux</button>
+        </section>
+        <aside id="Question1-RSP">
+            <p>Répondez a la question pour découvrir la bonne réponse...</p>
+        </aside>
+        <section>
+            <h2>Question:</h2>
+            <h1>Vrai ou Faux ?</h1>
+            <h2>"Les énergies renouvelables ne sont pas assez efficaces."</h2>
+            <button onclick="vrai(2)" class="vrai">Vrai</button>
+            <button onclick="faux(2)" class="faux">Faux</button>
+        </section>
+        <aside id="Question2-RSP">
+            <p>Répondez a la question pour découvrir la bonne réponse...</p>
+        </aside>
+        <section>
+            <h2>Question:</h2>
+            <h1>Vrai ou Faux ?</h1>
+            <h2>"La technologie nous sauvera."</h2>
+            <button onclick="vrai(3)" class="vrai">Vrai</button>
+            <button onclick="faux(3)" class="faux">Faux</button>
+        </section>
+        <aside id="Question3-RSP">
+            <p>Répondez a la question pour découvrir la bonne réponse...</p>
+        </aside>
     </main>
-    <script>
-        const userDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
-        let head = document.getElementsByTagName("head")[0];
-        let link = document.createElement('link');
-        link.rel = "stylesheet";
-        link.type = "text/css";
-        if(userDarkTheme.matches) {
-            link.href = "./styles/dark.css"
-            var img = document.getElementsByTagName("img")[0];
-            img.src = "Assets/images/ndicarrot-dark.png"
-        } else {
-            link.href = "./styles/light.css";
-        }
-        head.appendChild(link);
-    </script>
+    <script src="Assets/Scripts/themeloader.js"></script>
 </body>
 </html>
