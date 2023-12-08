@@ -30,6 +30,17 @@ body{
     cursor:pointer;
 }
 
+.start-block .go-down-button{
+    color:white;
+    font-size:64px;
+    position:absolute;
+    align-self:flex-end;
+    margin-bottom:5rem;
+    cursor:pointer;
+    border:none;
+    background:none;
+}
+
 @media (max-width: 800px) {
     .start-block{
         display:flex;
@@ -55,5 +66,10 @@ body{
 }
 
 .main-page{
-    margin-top:10rem;
+    height:100vh;
+    margin:3rem;
+}
+
+article{
+    font-size:24px;
 }
