@@ -8,4 +8,4 @@ Le site est accessible sur le site https://main--delicate-cocada-9de539.netlify.
 Corentin Laforgue, Xabi Goity et Nils Durieux, membres de l'équipe CXN, participant à la Nuit de l'Info 2023.
 
 # Remerciements
-Merci aux organisateurs de la NDI de permettre un tel événement de subsister.
+Merci aux organisateurs de la NDI et aux entreprises sponsor de l'événement de permettre un tel événement de subsister.
