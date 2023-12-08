@@ -5,8 +5,11 @@ link.rel = "stylesheet";
 link.type = "text/css";
 if(userDarkTheme.matches) {
     link.href = "./styles/dark.css"
-    var img = document.getElementsByTagName("img")[0];
-    img.src = "Assets/images/ndicarrot-dark.png"
+    try {
+        var img = document.getElementsByTagName("img")[0]; 
+        img.src = "Assets/images/ndicarrot-dark.png";
+    } catch {
+    }
 } else {
     link.href = "./styles/light.css";
 }
