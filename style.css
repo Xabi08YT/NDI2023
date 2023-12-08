@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin:0;
     font-family:Arial,sans-serif;
@@ -30,9 +34,10 @@ body{
     cursor:pointer;
 }
 
-.start-block .go-down-button{
+.start-block a{
     color:white;
-    font-size:64px;
+    font-size:32px;
+    text-decoration: none;
     position:absolute;
     align-self:flex-end;
     margin-bottom:5rem;
@@ -63,13 +68,24 @@ body{
         height:250px;
         cursor:auto;
     }
+
+    .start-block a{
+        position:relative;
+        align-self:center;
+
+    }
 }
 
-.main-page{
+#main-page{
     height:100vh;
     margin:3rem;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
 }
 
-article{
-    font-size:24px;
+#main-page h1{
+
+    margin:12px;
+    font-size:64px;
 }
