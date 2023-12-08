@@ -104,3 +104,25 @@ body{
 #main-page.left {
     float: left;
 }
+
+
+#main-page section {
+    margin-top: 100vh;
+    height: 100vh;
+}
+
+#main-page section > * {
+    color: black;
+}
+
+#main-page section:first-child {
+    margin-top: 400vh;
+}
+
+footer {
+    background-color: #C5DFA0;
+    padding: 10vh;
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 400vh;
+}
