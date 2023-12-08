@@ -132,3 +132,20 @@ section img {
     height: 300px;
     float: right;
 }
+
+section button {
+    border-style: solid;
+    border-color: green;
+    background: none;
+    color: white;
+    padding: 5px;
+}
+
+section button:hover {
+    cursor: pointer;
+}
+
+section button+button {
+    border: 2px solid red;
+    background: none;
+}
